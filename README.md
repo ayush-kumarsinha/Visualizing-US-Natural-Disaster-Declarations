@@ -1,118 +1,144 @@
+### AMBATI MOHAN KRISHNA 
+
+### Basic Information
+
+#### College : Dadi institute Of Engineering And Technology
+#### Branch : CSE-Data Science
+#### Year : IV Year
+#### Batch : 2022-2026
+
+### Github Profile
+
+https://github.com/ayush-kumarsinha
+
+### Repositary Link
+
+https://github.com/ayush-kumarsinha/Visualizing-US-Natural-Disaster-Declarations.git
+
+## Visualizing-US-Natural-Disaster-Declarations-Trends-And-Patterns
+
+### Problem Statement
+
+Natural disasters impact the U.S. every year, but raw FEMA datasets are large, complex, and hard to interpret. Decision-makers struggle to quickly identify high-risk regions, disaster trends, and program needs.
+This project transforms FEMA disaster declaration data into interactive dashboards that reveal patterns, hotspots, trends over time, and assistance program usage to support data-driven disaster preparedness and planning.
+
+### Dataset Description [About Dataset]
+
+FEMA disaster declaration data covering U.S. disaster events, including dates, locations, incident types, and assistance program indicators. The dataset was cleaned and prepared for accurate analysis and visualization.
+
+##### Key information in the dataset:
+
+1 . Disaster declaration dates
+
+2 . Affected states and regions
+
+3 . Incident and designated incident types
+
+4 . Disaster identification details
+
+5 . Assistance program declarations
+
+##### Program declaration indicators included:
+
+1 . Individual Assistance
+
+2 . Public Assistance
+
+3 . Hazard Mitigation
+
+4 . Emergency / Other Programs
+
+### Key Performance Indicators [KPIs]
 
 
-# Visualization of U.S. Natural Disaster Declarations
+1 . Total Disaster Declarations – overall disaster volume
 
-## 📌 Project Overview
-This project analyzes **U.S. Natural Disaster Declarations (1953–2025)** to understand disaster patterns across states and identify trends over time.  
-The analysis focuses on identifying high-risk states, major disaster types, and seasonal storm patterns using interactive Power BI dashboards.
+2 . Disasters by Incident Type – most frequent disaster categories
 
-The project includes two dashboards:
+3 . State-wise Disaster Count – hotspot identification
 
-1. **From Texas to Tennessee – Unveiling U.S. Disaster Patterns**
-2. **U.S. Storm Activity: State and Seasonal Trend**
+4 . Year-wise Disaster Trend – growth or decline over time
 
-These dashboards help reveal how disasters are distributed across the United States and how storm incidents vary by state and month.
+5 . Longest Disaster Duration (Days) – prolonged-impact events
 
----
+6 . Top 5 States vs Others – concentration of disaster risk
 
-# 📊 Dashboard 1: From Texas to Tennessee – Unveiling U.S. Disaster Patterns
 
-This dashboard provides an **overall analysis of disaster declarations across the United States from 1953 to 2025**.
+### Dashboard Pages [No.of Pages Used For Visualization]
 
-### KPIs Used
-- **Total Disasters**
-- **Total States**
-- **Total Incident Types**
-- **Total HM Declared**
-- **Data Coverage:** 1953 – 2025
+This project presents FEMA U.S. disaster data through three focused dashboards, designed to answer the most important questions at a glance and guide deeper exploration. Each dashboard highlights a different dimension of disaster impact, ensuring clarity, storytelling, and actionable insights.
 
-### Visualizations Used
-- Pie Chart – Count of Incident Type by Declaration Type  
-- Table – Incident Type vs Total Disasters  
-- Bar Chart – Total Disasters by State Name  
-- Line Chart – Total Disasters by Year  
+1 ->Disaster Pulse – When, Where & Impact
+This dashboard gives a quick national snapshot of disaster activity over time, highlights geographic hotspots across states, and shows which disaster types occur most frequently. It helps users quickly understand overall trends and where disasters hit the hardest.
 
-### Key Insights
-- **Texas recorded the highest number of disaster declarations** among all states.
-- The most common disaster type observed is **Severe Storm**.
-- Disaster declarations have increased significantly in recent years.
-- **2020 recorded the highest number of disasters (907)** across the United States.
-- Disaster occurrences vary widely across different states and regions.
+2 ->Disaster Hotspots & Severity
+This view focuses on regional impact by ranking the most affected states and highlighting areas with prolonged recovery durations. It is useful for identifying high-risk regions and understanding where disaster response and preparedness need more attention.
 
----
+3 ->Disaster Severity & Duration
+This dashboard dives into how long different disaster types last and how severity changes over time, revealing patterns in prolonged disruption and recovery challenges. It helps differentiate between frequent disasters and those that cause long-term impact.
 
-# 🌩 Dashboard 2: U.S. Storm Activity – State and Seasonal Trend
+--> Why This Dashboard Design Works [Highlights]
 
-This dashboard focuses specifically on **storm-related disasters** and analyzes their yearly and monthly patterns across states.
+1 . Uses 3 concise dashboards to avoid clutter while covering trends, geography, and severity.
 
-### KPIs Used
-- **Total Storm Incidents**
-- **Average Storms per Year**
-- **Total Disasters**
+2 . Combines KPI cards with interactive visuals for quick insights and deeper exploration.
 
-### Visualizations Used
-- Bar Chart – Total Storm Incidents by State Name  
-- Line Chart – Total Storm Incidents by Year  
-- Line Chart – Total Storm Incidents by Month  
+3 . Applies maps, line charts, and bar charts to match the nature of each question.
 
-### Key Insights
-- Storm incidents occur across almost all U.S. states.
-- There is a **clear seasonal trend** in storm activity.
-- Each state shows a **peak month for storm incidents**.
-- Identifying these peak months helps disaster management teams prepare better.
-- Focusing on high-risk months can reduce the impact of storms.
+4 . Keeps the layout simple, story-driven, and interview-ready.
 
----
+5 . Designed for non-technical users to understand disaster patterns quickly.
 
-# 📚 Dataset Description
-The dataset contains **FEMA Disaster Declaration records** including disaster type, location, declaration information, and assistance programs declared.
 
-### Key Dataset Columns
-- `disaster_number`
-- `state`
-- `incident_type`
-- `declaration_type`
-- `declaration_date`
-- `incident_begin_date`
-- `incident_end_date`
-- `region`
-- `designated_area`
-- `ih_program_declared`
-- `ia_program_declared`
-- `pa_program_declared`
-- `hm_program_declared`
+### Key Insights [Insights,Trends,patterns From The Dashboard]
 
-### Dataset Summary
-- Covers disaster records from **1953 to 2025**
-- Includes multiple disaster types such as storms, floods, hurricanes, and severe weather
-- Used for **trend analysis, state comparison, and seasonal disaster analysis**
 
----
+Trends [What changes over time]
 
-# 🧰 Tools Used
-- **Power BI** – Data visualization and dashboard creation  
-- **Power Query** – Data cleaning and transformation  
-- **DAX (Data Analysis Expressions)** – KPI calculations  
-- **GitHub** – Project documentation and version control  
+1 . Disaster declarations show a rising trend over the years, with noticeable peaks in recent periods.
 
----
+2 . The average disaster duration shows periodic spikes, indicating years with prolonged recovery.
 
-# 📷 Dashboard Preview
+Patterns [What repeats or clusters]
 
-<p align="center">
-  <img src="SCREENSHOTS/dashboard 1.png" width="900">
-</p>
+1 . Disasters are concentrated in a few hotspot states, showing repeated regional vulnerability.
 
----
+2 . A small set of disaster types—floods, hurricanes, and severe storms—consistently dominate total events.
 
-<p align="center">
-  <img src="SCREENSHOTS/dashboard 2.png" width="900">
-</p>
+3 . High-impact states tend to experience longer recovery durations repeatedly.
 
----
+Insights [What this means / what we learn]
 
-# 📈 Future Enhancements
-- Add predictive disaster trend analysis.
-- Include regional disaster risk scoring.
-- Integrate weather and climate datasets.
-- Expand analysis to economic damage impact.
+1 . Disaster risk is increasing and unevenly distributed, requiring targeted preparedness in hotspot regions.
+
+2 . Focusing mitigation on the most frequent disaster types can reduce overall impact significantly.
+
+3 . Long-duration events indicate a need for long-term recovery planning, not just immediate response.
+
+
+
+### Recommendations [What Can Improve]
+
+1 . Strengthen preventive measures in highly affected regions
+
+2 . Allocate resources based on frequently declared assistance programs
+
+3 . Use historical patterns to support disaster preparedness planning
+
+4 . Improve data consistency in future records to support better analysis
+
+### Tools Used [In This Project]
+
+1 . Kaggle – Dataset sourcing and initial exploration
+
+2 . Power BI Desktop – Data modeling and dashboard creation
+
+3 . Power Query – Data cleaning and transformation
+
+4 . Python – Data analysis and preprocessing
+
+5 . Jupyter Notebook – Exploratory data analysis and experimentation
+
+6 . VS Code – Development and project organization
+
+7 . GitHub – Version control and project documentation                                                                       
